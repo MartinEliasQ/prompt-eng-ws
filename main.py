@@ -38,6 +38,7 @@ def read_root():
 def ai(message):
     gpt4o = get_model()
     human_message = HumanMessage(message)
+    console.log("Hellow")
     response = gpt4o([human_message])
     return response.content
     # return response
