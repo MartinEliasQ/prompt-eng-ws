@@ -1,0 +1,21 @@
+[project]
+name = "prompt-eng-ws"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.11",
+    "langchain>=0.3.20",
+    "langchain-community>=0.3.19",
+    "langchain-core>=0.3.44",
+    "langchain-openai>=0.3.8",
+    "langgraph>=0.3.8",
+    "openai>=1.66.2",
+    "uvicorn>=0.34.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
